@@ -49,8 +49,8 @@ box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
 
 .container-games{
   grid-template-columns: 100%;
-  height: 600px;
-
+  height: 750px;
+  margin-bottom: 100px;
 }
 
 
