@@ -1,0 +1,69 @@
+
+
+.container-games{
+width: 100%;
+height: 300px;
+margin: 10px 10px 50px;
+display: grid;
+grid-template-columns: 50% 50%;
+background: white;
+box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+
+}
+
+
+.image-game{
+  height: 100%;
+  width: 100%;
+
+}
+
+.container-text-games{
+  text-align: center;
+  padding: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.name-game{
+  font-size: 1.3rem;
+}
+
+.tipe-game{
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom:30px;
+}
+
+.text-game{
+  text-align: justify;
+
+}
+
+
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+
+.container-games{
+  grid-template-columns: 100%;
+  height: 600px;
+
+}
+
+
+}
+
+
+@media (min-width:300px) and (max-width:480px) {
+
+.container-games{
+  grid-template-columns: 100%;
+  height: 550px;
+
+}
+
+
+}
